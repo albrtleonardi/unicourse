@@ -3,7 +3,7 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 import { FaUserCircle } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const Navbar = () => {
+const UserNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
           <GiHamburgerMenu className="text-2xl cursor-pointer md:hidden" onClick={toggleMenu} />
           <p className="text-2xl font-satoshi font-medium mx-auto md:mx-0">Unicourse</p>
         </div>
-        <div className="hidden md:flex space-x-10">
+        <div className="hidden md:flex space-x-10 ml-">
           <p className="hover:text-gray-400 cursor-pointer">Home</p>
           <p className="hover:text-gray-400 cursor-pointer">Course</p>
           <p className="hover:text-gray-400 cursor-pointer">About Us</p>
@@ -40,4 +40,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default UserNavbar;
