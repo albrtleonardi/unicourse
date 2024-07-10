@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     fontFamily:{
       'satoshi': ['Satoshi', 'sans-serif'],
-      'inter': ['Inter', 'sans-serif']
+      'inter': ['Inter', 'sans-serif'],
+      'outfit': ['Outfir', 'sans-serif']
     }
   },
   plugins: [],

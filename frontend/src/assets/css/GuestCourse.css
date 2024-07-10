@@ -1,0 +1,92 @@
+/* Custom styles for the course section */
+.slick-prev, .slick-next {
+    background-color: #FFD700; /* Custom color for navigation buttons */
+    color: #000;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    background-color: #FFA500; /* Custom hover color for navigation buttons */
+  }
+  
+  /* Adjust the positioning of navigation buttons */
+  .slick-prev {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .slick-next {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Style the carousel thumbnails */
+  .slick-slide img {
+    transition: opacity 0.3s ease;
+  }
+  
+  .slick-slide img:hover {
+    opacity: 1;
+  }
+  
+  /* Ensure the dots are positioned correctly */
+  .slick-dots {
+    bottom: 10px;
+  }
+  
+  .slick-dots li button:before {
+    color: white;
+    font-size: 12px;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #FFD700; /* Custom active dot color */
+  }
+  
+  /* Ensure the main image container is properly styled */
+  .bg-cover {
+    background-size: cover;
+  }
+  
+  .filter {
+    backdrop-filter: blur(8px);
+  }
+  
+  /* Make the next and prev buttons initially invisible */
+  .slick-prev, .slick-next {
+    opacity: 0;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    opacity: 1;
+  }
+  
+  /* Style for the small course items */
+  .small-course-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 250px;
+  }
+  
+  .small-course-item img {
+    border-radius: 8px;
+  }
+  
+  .small-course-item p {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
