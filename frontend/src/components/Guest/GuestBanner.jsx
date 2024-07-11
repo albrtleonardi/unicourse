@@ -4,7 +4,7 @@ import { Parallax } from 'react-parallax';
 const GuestBanner = () => {
   return (
     <Parallax bgImage="https://www.finestwallpaper.com/uploads/5/7/7/9/5779447/s774058804322417752_p1199_i10_w2560.jpeg" strength={300}>
-      <div className="relative w-full h-[600px] flex items-center justify-center grid-background">
+      <div className="relative w-full h-[800px] flex items-center justify-center grid-background">
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white p-8">
           <h1 className="text-6xl sm:text-7xl font-semibold mb-4 font-satoshi">
             Welcome to Unicourse
